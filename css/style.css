@@ -1,0 +1,103 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-image: url(https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+  margin-left: 15px;
+}
+
+img {
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  width: 100px;
+  height: fit-content;
+
+  list-style: none;
+}
+li {
+  width: 94px;
+  height: 65px;
+  border: 2px solid rgb(63, 62, 62);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.globe {
+  float: right;
+  margin-right: 40%;
+  border-radius: 50%;
+}
+
+.thumb img {
+  height: 55px;
+  padding-top: 3px;
+}
+
+#africa {
+  background: rgb(216, 147, 213);
+}
+
+#antarctica {
+  background: rgb(231, 5, 5);
+}
+#asia {
+  background: rgb(233, 108, 7);
+}
+
+#australia {
+  background: rgb(231, 227, 5);
+}
+#europe {
+  background: rgba(0, 253, 81, 1);
+}
+
+#northAmerica {
+  background: rgba(0, 254, 255);
+}
+
+#southAmerica {
+  background: rgba(5, 9, 212, 0.8);
+}
+
+#ocean {
+  background: rgba(83, 5, 128, 0.8);
+}
+
+#reset {
+  background: black;
+  color: gainsboro;
+  text-align: center;
+  padding-top: 40%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
